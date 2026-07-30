@@ -1,0 +1,5 @@
+[tool.pyright]
+include = ["src", "scripts", "frontend"]
+executionEnvironments = [
+  { root = "." }
+]

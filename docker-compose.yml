@@ -1,0 +1,104 @@
+# ============================================================================
+# ResearchRAG — Docker Compose Configuration
+# ============================================================================
+# Orchestrates the FastAPI backend and Streamlit frontend as containerized
+# services on a shared bridge network, with persistent named volumes for
+# the vector database, uploaded documents, and application logs.
+#
+# Usage:
+#   docker compose up --build        (build and start)
+#   docker compose down              (stop and remove containers)
+#   docker compose down -v           (also remove persisted volumes)
+# ============================================================================
+
+services:
+
+  # --------------------------------------------------------------------------
+  # API — FastAPI backend (Uvicorn)
+  # --------------------------------------------------------------------------
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: researchrag-api
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - APP_ENVIRONMENT=production
+      - APP_DEBUG=false
+      - UVICORN_HOST=0.0.0.0
+      - UVICORN_PORT=8000
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist ChromaDB data, uploaded files, and logs across restarts
+      - vectorstore-data:/app/data/vectorstore
+      - upload-data:/app/data/uploads
+      - app-logs:/app/logs
+    networks:
+      - researchrag-net
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request, sys; urllib.request.urlopen('http://localhost:8000/health'); sys.exit(0)"]
+      interval: 30s
+      timeout: 5s
+      start_period: 15s
+      retries: 3
+
+  # --------------------------------------------------------------------------
+  # Frontend — Streamlit UI
+  # --------------------------------------------------------------------------
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: researchrag-frontend
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      # Point the frontend at the API service via the Docker network
+      - API_URL=http://api:8000
+    ports:
+      - "8501:8501"
+    volumes:
+      # Share the upload directory so saved files are visible to the API
+      - upload-data:/app/data/uploads
+    depends_on:
+      api:
+        condition: service_healthy
+    networks:
+      - researchrag-net
+    # Override the default CMD to launch Streamlit instead of Uvicorn
+    command: >
+      streamlit run frontend/streamlit_app.py
+      --server.port=8501
+      --server.address=0.0.0.0
+      --server.headless=true
+      --browser.gatherUsageStats=false
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request, sys; urllib.request.urlopen('http://localhost:8501/_stcore/health'); sys.exit(0)"]
+      interval: 30s
+      timeout: 5s
+      start_period: 15s
+      retries: 3
+
+# ---------------------------------------------------------------------------
+# Persistent Named Volumes
+# ---------------------------------------------------------------------------
+volumes:
+  vectorstore-data:
+    driver: local
+  upload-data:
+    driver: local
+  app-logs:
+    driver: local
+
+# ---------------------------------------------------------------------------
+# Network
+# ---------------------------------------------------------------------------
+networks:
+  researchrag-net:
+    driver: bridge

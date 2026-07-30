@@ -1,0 +1,605 @@
+2026-07-30 21:00:16 | INFO     | src.api.app | _register_routers:178 | Routers configured successfully.
+2026-07-30 21:00:16 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-30 21:00:33 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /
+2026-07-30 21:00:33 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET / - Status: 404 - Latency: 0.0486s
+2026-07-30 21:00:34 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /favicon.ico
+2026-07-30 21:00:34 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /favicon.ico - Status: 404 - Latency: 0.0031s
+2026-07-30 21:02:27 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /docs
+2026-07-30 21:02:27 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /docs - Status: 200 - Latency: 0.0067s
+2026-07-30 21:02:28 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /openapi.json
+2026-07-30 21:02:28 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /openapi.json - Status: 200 - Latency: 0.0130s
+2026-07-30 21:26:20 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 21:26:20 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0123s
+2026-07-30 21:26:22 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 21:26:22 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0028s
+2026-07-30 21:26:24 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 21:26:24 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0068s
+2026-07-30 21:26:39 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 21:26:39 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0046s
+2026-07-30 21:26:41 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 21:26:41 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0041s
+2026-07-30 21:26:43 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 21:26:43 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0046s
+2026-07-30 21:26:50 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 21:26:50 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0031s
+2026-07-30 21:26:52 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 21:26:52 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0047s
+2026-07-30 21:26:54 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 21:26:54 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0032s
+2026-07-30 21:26:56 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /index
+2026-07-30 21:26:56 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /index - Status: 404 - Latency: 0.0029s
+2026-07-30 21:27:10 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 21:27:10 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0034s
+2026-07-30 21:27:12 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 21:27:12 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0040s
+2026-07-30 21:27:15 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 21:27:15 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0027s
+2026-07-30 21:36:31 | INFO     | src.api.app | lifespan:40 | ResearchRAG API shutting down. Cleaning up resources...
+2026-07-30 21:36:41 | INFO     | src.api.app | _register_routers:178 | Routers configured successfully.
+2026-07-30 21:36:41 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-30 21:37:18 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /docs
+2026-07-30 21:37:18 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /docs - Status: 200 - Latency: 0.0041s
+2026-07-30 21:37:18 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /openapi.json
+2026-07-30 21:37:18 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /openapi.json - Status: 200 - Latency: 0.0034s
+2026-07-30 21:38:03 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 21:38:03 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0088s
+2026-07-30 21:38:05 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 21:38:05 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0034s
+2026-07-30 21:38:07 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 21:38:07 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0046s
+2026-07-30 21:40:34 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 21:40:34 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0022s
+2026-07-30 21:40:36 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 21:40:36 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0035s
+2026-07-30 21:40:38 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 21:40:38 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0051s
+2026-07-30 21:41:00 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 21:41:00 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0033s
+2026-07-30 21:41:02 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 21:41:02 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0026s
+2026-07-30 21:41:04 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 21:41:04 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0036s
+2026-07-30 21:41:06 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /query
+2026-07-30 21:41:06 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /query - Status: 404 - Latency: 0.0047s
+2026-07-30 21:41:18 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 21:41:18 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0031s
+2026-07-30 21:41:20 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 21:41:20 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0040s
+2026-07-30 21:41:22 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 21:41:22 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0045s
+2026-07-30 21:41:24 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /index
+2026-07-30 21:41:24 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /index - Status: 404 - Latency: 0.0010s
+2026-07-30 21:41:44 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 21:41:44 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0014s
+2026-07-30 21:41:46 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 21:41:46 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0031s
+2026-07-30 21:41:48 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 21:41:48 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0035s
+2026-07-30 21:41:50 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /query
+2026-07-30 21:41:50 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /query - Status: 404 - Latency: 0.0028s
+2026-07-30 22:00:15 | INFO     | src.api.app | _register_routers:178 | Routers configured successfully.
+2026-07-30 22:00:15 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-30 22:00:38 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 22:00:38 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0082s
+2026-07-30 22:00:40 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 22:00:40 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0032s
+2026-07-30 22:00:42 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 22:00:42 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0030s
+2026-07-30 22:01:26 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 22:01:26 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0041s
+2026-07-30 22:01:28 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 22:01:28 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0034s
+2026-07-30 22:01:30 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 22:01:30 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0027s
+2026-07-30 22:01:35 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 22:01:35 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0031s
+2026-07-30 22:01:37 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 22:01:37 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0030s
+2026-07-30 22:01:39 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 22:01:39 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0012s
+2026-07-30 22:01:41 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /index
+2026-07-30 22:01:41 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /index - Status: 404 - Latency: 0.0018s
+2026-07-30 22:02:18 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 22:02:18 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0064s
+2026-07-30 22:02:20 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 22:02:20 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0031s
+2026-07-30 22:02:22 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 22:02:22 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0060s
+2026-07-30 22:02:24 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /query
+2026-07-30 22:02:24 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /query - Status: 404 - Latency: 0.0032s
+2026-07-30 22:02:33 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 22:02:33 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0033s
+2026-07-30 22:02:35 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 22:02:35 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0030s
+2026-07-30 22:02:37 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 22:02:37 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0047s
+2026-07-30 22:02:39 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /index
+2026-07-30 22:02:39 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /index - Status: 404 - Latency: 0.0031s
+2026-07-30 22:03:09 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-30 22:03:09 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0014s
+2026-07-30 22:03:11 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-30 22:03:11 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 404 - Latency: 0.0025s
+2026-07-30 22:03:13 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-30 22:03:13 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 404 - Latency: 0.0029s
+2026-07-30 22:03:15 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /query
+2026-07-30 22:03:15 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /query - Status: 404 - Latency: 0.0027s
+2026-07-30 23:09:16 | INFO     | src.api.app | _register_routers:174 | Routers configured successfully.
+2026-07-30 23:09:16 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /api/index
+2026-07-30 23:09:16 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /api/index - Status: 404 - Latency: 0.0121s
+2026-07-30 23:09:16 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /api/query
+2026-07-30 23:09:16 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /api/query - Status: 404 - Latency: 0.0010s
+2026-07-30 23:10:25 | INFO     | src.api.app | _register_routers:174 | Routers configured successfully.
+2026-07-30 23:10:25 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /index
+2026-07-30 23:10:25 | INFO     | src.embeddings.embedding_manager | _create_provider:119 | Creating embedding provider instance: sentence-transformers
+2026-07-30 23:10:25 | INFO     | src.embeddings.embedding_manager | __init__:64 | EmbeddingManager initialized with provider: sentence-transformers
+2026-07-30 23:10:25 | ERROR    | src.api.dependencies | get_embedding_model:75 | Failed to load embedding model: 'EmbeddingManager' object has no attribute 'get_provider'
+2026-07-30 23:10:25 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /index - Status: 500 - Latency: 0.0134s
+2026-07-30 23:10:25 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /query
+2026-07-30 23:10:25 | INFO     | src.vectorstores.chroma_store | initialize:100 | Initializing ChromaDB client at persist directory: data\vectorstore
+2026-07-30 23:10:26 | INFO     | src.vectorstores.chroma_store | initialize:108 | ChromaDB client initialized successfully
+2026-07-30 23:10:26 | INFO     | src.vectorstores.chroma_store | create_collection:128 | Creating ChromaDB collection: research_documents
+2026-07-30 23:10:26 | INFO     | src.vectorstores.chroma_store | create_collection:140 | Collection ready: research_documents
+2026-07-30 23:10:26 | ERROR    | src.api.dependencies | get_embedding_model:75 | Failed to load embedding model: 'EmbeddingManager' object has no attribute 'get_provider'
+2026-07-30 23:10:26 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /query - Status: 500 - Latency: 1.3309s
+2026-07-31 00:53:31 | INFO     | src.api.app | _register_routers:175 | Routers configured successfully.
+2026-07-31 00:53:31 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-31 00:56:12 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 00:56:12 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0110s
+2026-07-31 00:56:14 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 00:56:14 | INFO     | src.vectorstores.chroma_store | initialize:104 | Initializing ChromaDB client at persist directory: data\vectorstore
+2026-07-31 00:56:14 | INFO     | src.vectorstores.chroma_store | initialize:112 | ChromaDB client initialized successfully
+2026-07-31 00:56:14 | INFO     | src.vectorstores.chroma_store | create_collection:132 | Creating ChromaDB collection: research_documents
+2026-07-31 00:56:14 | INFO     | src.vectorstores.chroma_store | create_collection:144 | Collection ready: research_documents
+2026-07-31 00:56:14 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.6242s
+2026-07-31 00:56:16 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 00:56:16 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0061s
+2026-07-31 00:56:26 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 00:56:26 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0038s
+2026-07-31 00:56:29 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 00:56:29 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.0089s
+2026-07-31 00:56:31 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 00:56:31 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0038s
+2026-07-31 00:56:34 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 00:56:34 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0024s
+2026-07-31 00:56:36 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 00:56:36 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.0072s
+2026-07-31 00:56:39 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 00:56:39 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0046s
+2026-07-31 00:56:41 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /index
+2026-07-31 00:56:41 | INFO     | src.embeddings.embedding_manager | _create_provider:119 | Creating embedding provider instance: sentence-transformers
+2026-07-31 00:56:41 | INFO     | src.embeddings.embedding_manager | __init__:64 | EmbeddingManager initialized with provider: sentence-transformers
+2026-07-31 00:56:41 | INFO     | src.pipelines.indexing_pipeline | __init__:127 | IndexingPipeline initialized (loader=PDFLoader, store=chromadb)
+2026-07-31 00:56:41 | INFO     | src.api.routes | index_documents:196 | API requested document indexing for source: 'C:\\Users\\HP\\ResearchRAG\\data\\uploads\\Attention_is_All_You_Need.pdf'
+2026-07-31 00:56:41 | INFO     | src.pipelines.indexing_pipeline | run:151 | Starting indexing pipeline for source: 'C:\\Users\\HP\\ResearchRAG\\data\\uploads\\Attention_is_All_You_Need.pdf'
+2026-07-31 00:56:41 | INFO     | src.loaders.pdf_loader | load:102 | Starting PDF load for source: C:\Users\HP\ResearchRAG\data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 00:56:44 | INFO     | src.loaders.pdf_loader | _load_single_pdf:171 | PDF loaded: C:\Users\HP\ResearchRAG\data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 00:56:44 | INFO     | src.loaders.pdf_loader | _load_single_pdf:172 | Number of pages: 15
+2026-07-31 00:56:44 | INFO     | src.loaders.pdf_loader | load:112 | Completed PDF load for source: C:\Users\HP\ResearchRAG\data\uploads\Attention_is_All_You_Need.pdf (15 pages)
+2026-07-31 00:56:44 | INFO     | src.pipelines.indexing_pipeline | run:157 | Loaded 15 documents from source.
+2026-07-31 00:56:44 | INFO     | src.preprocessing.splitter | split_documents:149 | Splitting 15 document(s) into chunks
+2026-07-31 00:56:44 | INFO     | src.preprocessing.splitter | split_documents:159 | Produced 52 chunk(s) from 15 document(s) in 0.003s (average chunk size: 871.5 characters)
+2026-07-31 00:56:44 | INFO     | src.pipelines.indexing_pipeline | run:187 | Number of chunks: 52
+2026-07-31 00:56:44 | INFO     | src.pipelines.indexing_pipeline | run:198 | Generating embeddings for 52 chunks...
+2026-07-31 00:56:44 | INFO     | src.embeddings.sentence_transformer | load_model:63 | Loading Sentence Transformers model: all-MiniLM-L6-v2
+2026-07-31 00:56:55 | INFO     | src.embeddings.sentence_transformer | load_model:71 | Successfully loaded Sentence Transformers model: all-MiniLM-L6-v2
+2026-07-31 00:56:55 | INFO     | src.embeddings.sentence_transformer | embed_documents:97 | Generating embeddings for 52 document(s)
+2026-07-31 00:57:02 | INFO     | src.embeddings.sentence_transformer | embed_documents:99 | Generated document embeddings with shape (52, 384)
+2026-07-31 00:57:02 | INFO     | src.pipelines.indexing_pipeline | run:201 | Embeddings generated: 52
+2026-07-31 00:57:02 | INFO     | src.pipelines.indexing_pipeline | run:214 | Storing 52 chunks in vector database...
+2026-07-31 00:57:02 | INFO     | src.vectorstores.chroma_store | add_documents:209 | Adding 52 document(s) to collection: research_documents
+2026-07-31 00:57:02 | INFO     | src.vectorstores.chroma_store | add_documents:226 | Number of vectors inserted into ChromaDB: 52
+2026-07-31 00:57:02 | INFO     | src.vectorstores.chroma_store | add_documents:227 | Collection size after insertion: 52
+2026-07-31 00:57:02 | INFO     | src.pipelines.indexing_pipeline | run:222 | Indexing pipeline completed successfully in 21.30 seconds. Indexed 15 documents (52 chunks).
+2026-07-31 00:57:02 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /index - Status: 200 - Latency: 21.3263s
+2026-07-31 00:57:34 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 00:57:34 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0011s
+2026-07-31 00:57:36 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 00:57:36 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.0033s
+2026-07-31 00:57:38 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 00:57:38 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0018s
+2026-07-31 00:57:40 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /query
+2026-07-31 00:57:55 | INFO     | src.llms.llm_factory | _create_client:121 | Creating LLM client instance for provider: openai
+2026-07-31 00:57:55 | ERROR    | src.api.dependencies | get_llm_factory:120 | Failed to initialize LLM Factory: Failed to initialize LLM provider 'openai': OpenAI API key is missing. Please set OPENAI_API_KEY in the environment or .env file.
+2026-07-31 00:57:55 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /query - Status: 500 - Latency: 15.3270s
+2026-07-31 01:03:28 | INFO     | src.api.app | lifespan:40 | ResearchRAG API shutting down. Cleaning up resources...
+2026-07-31 01:03:55 | INFO     | src.api.app | _register_routers:175 | Routers configured successfully.
+2026-07-31 01:03:55 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-31 01:04:19 | INFO     | src.llms.llm_factory | _create_client:121 | Creating LLM client instance for provider: groq
+2026-07-31 01:04:19 | INFO     | src.llms.groq_client | initialize:75 | Initializing Groq client (model=gpt-4o-mini)
+2026-07-31 01:04:20 | INFO     | src.llms.llm_factory | __init__:66 | LLMFactory initialized with provider: groq
+2026-07-31 01:05:26 | INFO     | src.api.app | _register_routers:175 | Routers configured successfully.
+2026-07-31 01:05:26 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-31 01:05:29 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 01:05:29 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0042s
+2026-07-31 01:05:31 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 01:05:32 | INFO     | src.vectorstores.chroma_store | initialize:104 | Initializing ChromaDB client at persist directory: data\vectorstore
+2026-07-31 01:05:32 | INFO     | src.vectorstores.chroma_store | initialize:112 | ChromaDB client initialized successfully
+2026-07-31 01:05:32 | INFO     | src.vectorstores.chroma_store | create_collection:132 | Creating ChromaDB collection: research_documents
+2026-07-31 01:05:32 | INFO     | src.vectorstores.chroma_store | create_collection:144 | Collection ready: research_documents
+2026-07-31 01:05:32 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.4266s
+2026-07-31 01:05:34 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 01:05:34 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0058s
+2026-07-31 01:05:46 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 01:05:46 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0034s
+2026-07-31 01:05:48 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 01:05:48 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.0072s
+2026-07-31 01:05:50 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 01:05:50 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0038s
+2026-07-31 01:05:55 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 01:05:55 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0015s
+2026-07-31 01:05:57 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 01:05:57 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.0083s
+2026-07-31 01:05:59 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 01:05:59 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0044s
+2026-07-31 01:06:01 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /index
+2026-07-31 01:06:01 | INFO     | src.embeddings.embedding_manager | _create_provider:119 | Creating embedding provider instance: sentence-transformers
+2026-07-31 01:06:01 | INFO     | src.embeddings.embedding_manager | __init__:64 | EmbeddingManager initialized with provider: sentence-transformers
+2026-07-31 01:06:01 | INFO     | src.pipelines.indexing_pipeline | __init__:127 | IndexingPipeline initialized (loader=PDFLoader, store=chromadb)
+2026-07-31 01:06:01 | INFO     | src.api.routes | index_documents:196 | API requested document indexing for source: 'C:\\Users\\HP\\ResearchRAG\\data\\uploads\\Attention_is_All_You_Need.pdf'
+2026-07-31 01:06:01 | INFO     | src.pipelines.indexing_pipeline | run:151 | Starting indexing pipeline for source: 'C:\\Users\\HP\\ResearchRAG\\data\\uploads\\Attention_is_All_You_Need.pdf'
+2026-07-31 01:06:01 | INFO     | src.loaders.pdf_loader | load:102 | Starting PDF load for source: C:\Users\HP\ResearchRAG\data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:06:02 | INFO     | src.loaders.pdf_loader | _load_single_pdf:171 | PDF loaded: C:\Users\HP\ResearchRAG\data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:06:02 | INFO     | src.loaders.pdf_loader | _load_single_pdf:172 | Number of pages: 15
+2026-07-31 01:06:02 | INFO     | src.loaders.pdf_loader | load:112 | Completed PDF load for source: C:\Users\HP\ResearchRAG\data\uploads\Attention_is_All_You_Need.pdf (15 pages)
+2026-07-31 01:06:02 | INFO     | src.pipelines.indexing_pipeline | run:157 | Loaded 15 documents from source.
+2026-07-31 01:06:02 | INFO     | src.preprocessing.splitter | split_documents:149 | Splitting 15 document(s) into chunks
+2026-07-31 01:06:02 | INFO     | src.preprocessing.splitter | split_documents:159 | Produced 52 chunk(s) from 15 document(s) in 0.003s (average chunk size: 871.5 characters)
+2026-07-31 01:06:02 | INFO     | src.pipelines.indexing_pipeline | run:187 | Number of chunks: 52
+2026-07-31 01:06:02 | INFO     | src.pipelines.indexing_pipeline | run:198 | Generating embeddings for 52 chunks...
+2026-07-31 01:06:02 | INFO     | src.embeddings.sentence_transformer | load_model:63 | Loading Sentence Transformers model: all-MiniLM-L6-v2
+2026-07-31 01:06:12 | INFO     | src.embeddings.sentence_transformer | load_model:71 | Successfully loaded Sentence Transformers model: all-MiniLM-L6-v2
+2026-07-31 01:06:12 | INFO     | src.embeddings.sentence_transformer | embed_documents:97 | Generating embeddings for 52 document(s)
+2026-07-31 01:06:18 | INFO     | src.embeddings.sentence_transformer | embed_documents:99 | Generated document embeddings with shape (52, 384)
+2026-07-31 01:06:18 | INFO     | src.pipelines.indexing_pipeline | run:201 | Embeddings generated: 52
+2026-07-31 01:06:18 | INFO     | src.pipelines.indexing_pipeline | run:214 | Storing 52 chunks in vector database...
+2026-07-31 01:06:18 | INFO     | src.vectorstores.chroma_store | add_documents:209 | Adding 52 document(s) to collection: research_documents
+2026-07-31 01:06:18 | INFO     | src.vectorstores.chroma_store | add_documents:226 | Number of vectors inserted into ChromaDB: 52
+2026-07-31 01:06:18 | INFO     | src.vectorstores.chroma_store | add_documents:227 | Collection size after insertion: 104
+2026-07-31 01:06:18 | INFO     | src.pipelines.indexing_pipeline | run:222 | Indexing pipeline completed successfully in 16.91 seconds. Indexed 15 documents (52 chunks).
+2026-07-31 01:06:18 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /index - Status: 200 - Latency: 16.9436s
+2026-07-31 01:06:46 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 01:06:46 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0027s
+2026-07-31 01:06:48 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 01:06:48 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.0080s
+2026-07-31 01:06:50 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 01:06:50 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0044s
+2026-07-31 01:06:52 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /query
+2026-07-31 01:06:53 | INFO     | src.llms.llm_factory | _create_client:121 | Creating LLM client instance for provider: groq
+2026-07-31 01:06:53 | INFO     | src.llms.groq_client | initialize:75 | Initializing Groq client (model=gpt-4o-mini)
+2026-07-31 01:06:53 | INFO     | src.llms.llm_factory | __init__:66 | LLMFactory initialized with provider: groq
+2026-07-31 01:06:53 | INFO     | src.retrieval.reranker | __init__:103 | Reranker initialized (model=cross-encoder/ms-marco-MiniLM-L-6-v2, default_top_k=3)
+2026-07-31 01:06:53 | INFO     | src.pipelines.rag_pipeline | __init__:177 | RAGPipeline initialized (retrieval_top_k=5, reranker=enabled)
+2026-07-31 01:06:53 | INFO     | src.api.routes | query_system:126 | API received query: 'What is Transformer Achitecture?'
+2026-07-31 01:06:53 | INFO     | src.pipelines.rag_pipeline | answer:217 | RAG pipeline started for query: 'What is Transformer Achitecture?'
+2026-07-31 01:06:53 | INFO     | src.retrieval.retriever | _search:257 | Retrieving for query (top_k=5, threshold=0.000, filters=None): 'What is Transformer Achitecture?'
+2026-07-31 01:06:53 | INFO     | src.embeddings.embedding_manager | embed_query:168 | Delegating embed_query request to provider: sentence-transformers
+2026-07-31 01:06:53 | INFO     | src.embeddings.sentence_transformer | embed_query:121 | Generating embedding for query
+2026-07-31 01:06:53 | INFO     | src.embeddings.sentence_transformer | embed_query:123 | Generated query embedding with shape (384,)
+2026-07-31 01:06:53 | INFO     | src.vectorstores.chroma_store | similarity_search:329 | Running similarity search on collection: research_documents (top_k=5)
+2026-07-31 01:06:53 | INFO     | src.vectorstores.chroma_store | similarity_search:346 | Similarity search returned 5 result(s)
+2026-07-31 01:06:53 | INFO     | src.retrieval.retriever | _search:285 | Retrieved 5 chunk(s) in 0.066s (before threshold: 5)
+2026-07-31 01:06:53 | INFO     | src.pipelines.rag_pipeline | retrieve_context:309 | Retrieval returned 5 chunk(s) in 0.067s
+2026-07-31 01:06:53 | INFO     | src.retrieval.reranker | rerank:147 | Reranking 5 chunk(s) for query (top_k=3): 'What is Transformer Achitecture?'
+2026-07-31 01:06:53 | INFO     | src.retrieval.reranker | _load_model:205 | Loading cross-encoder model: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-31 01:09:44 | INFO     | src.retrieval.reranker | _load_model:215 | Successfully loaded cross-encoder model: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-31 01:09:45 | INFO     | src.retrieval.reranker | rerank:180 | Reranked 5 chunk(s) to 3 in 0.610s
+2026-07-31 01:09:45 | INFO     | src.pipelines.rag_pipeline | retrieve_context:338 | Reranking refined 5 chunk(s) to 3 in 171.566s
+2026-07-31 01:09:45 | INFO     | src.pipelines.rag_pipeline | build_context:384 | Built context from 3 chunk(s) (3131 characters)
+2026-07-31 01:09:45 | INFO     | src.llms.groq_client | generate:124 | Sending generation request to Groq (model=gpt-4o-mini, temp=0.20)
+2026-07-31 01:09:46 | ERROR    | src.api.routes | query_system:162 | Pipeline error during API query: LLM generation failed for query: Groq API returned an error status (401): <Response [401 Unauthorized]>
+2026-07-31 01:09:46 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /query - Status: 500 - Latency: 173.3252s
+2026-07-31 01:19:37 | INFO     | src.api.app | lifespan:40 | ResearchRAG API shutting down. Cleaning up resources...
+2026-07-31 01:20:04 | INFO     | src.api.app | _register_routers:175 | Routers configured successfully.
+2026-07-31 01:20:04 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-31 01:21:52 | INFO     | src.api.app | lifespan:40 | ResearchRAG API shutting down. Cleaning up resources...
+2026-07-31 01:22:22 | INFO     | src.api.app | _register_routers:175 | Routers configured successfully.
+2026-07-31 01:22:22 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-31 01:24:37 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 01:24:37 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0045s
+2026-07-31 01:24:39 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 01:24:39 | INFO     | src.vectorstores.chroma_store | initialize:104 | Initializing ChromaDB client at persist directory: data\vectorstore
+2026-07-31 01:24:39 | INFO     | src.vectorstores.chroma_store | initialize:112 | ChromaDB client initialized successfully
+2026-07-31 01:24:39 | INFO     | src.vectorstores.chroma_store | create_collection:132 | Creating ChromaDB collection: research_documents
+2026-07-31 01:24:39 | INFO     | src.vectorstores.chroma_store | create_collection:144 | Collection ready: research_documents
+2026-07-31 01:24:39 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.2325s
+2026-07-31 01:24:41 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 01:24:41 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0057s
+2026-07-31 01:24:51 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 01:24:51 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0209s
+2026-07-31 01:24:53 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 01:24:53 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.0079s
+2026-07-31 01:24:55 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 01:24:55 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0038s
+2026-07-31 01:24:59 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 01:24:59 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0026s
+2026-07-31 01:25:01 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 01:25:01 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.0082s
+2026-07-31 01:25:03 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 01:25:03 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0037s
+2026-07-31 01:25:05 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /index
+2026-07-31 01:25:05 | INFO     | src.embeddings.embedding_manager | _create_provider:119 | Creating embedding provider instance: sentence-transformers
+2026-07-31 01:25:05 | INFO     | src.embeddings.embedding_manager | __init__:64 | EmbeddingManager initialized with provider: sentence-transformers
+2026-07-31 01:25:05 | INFO     | src.pipelines.indexing_pipeline | __init__:127 | IndexingPipeline initialized (loader=PDFLoader, store=chromadb)
+2026-07-31 01:25:05 | INFO     | src.api.routes | index_documents:196 | API requested document indexing for source: 'C:\\Users\\HP\\ResearchRAG\\data\\uploads\\Attention_is_All_You_Need.pdf'
+2026-07-31 01:25:05 | INFO     | src.pipelines.indexing_pipeline | run:151 | Starting indexing pipeline for source: 'C:\\Users\\HP\\ResearchRAG\\data\\uploads\\Attention_is_All_You_Need.pdf'
+2026-07-31 01:25:05 | INFO     | src.loaders.pdf_loader | load:102 | Starting PDF load for source: C:\Users\HP\ResearchRAG\data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:25:05 | INFO     | src.loaders.pdf_loader | _load_single_pdf:171 | PDF loaded: C:\Users\HP\ResearchRAG\data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:25:05 | INFO     | src.loaders.pdf_loader | _load_single_pdf:172 | Number of pages: 15
+2026-07-31 01:25:05 | INFO     | src.loaders.pdf_loader | load:112 | Completed PDF load for source: C:\Users\HP\ResearchRAG\data\uploads\Attention_is_All_You_Need.pdf (15 pages)
+2026-07-31 01:25:05 | INFO     | src.pipelines.indexing_pipeline | run:157 | Loaded 15 documents from source.
+2026-07-31 01:25:05 | INFO     | src.preprocessing.splitter | split_documents:149 | Splitting 15 document(s) into chunks
+2026-07-31 01:25:05 | INFO     | src.preprocessing.splitter | split_documents:159 | Produced 52 chunk(s) from 15 document(s) in 0.003s (average chunk size: 871.5 characters)
+2026-07-31 01:25:05 | INFO     | src.pipelines.indexing_pipeline | run:187 | Number of chunks: 52
+2026-07-31 01:25:05 | INFO     | src.pipelines.indexing_pipeline | run:198 | Generating embeddings for 52 chunks...
+2026-07-31 01:25:05 | INFO     | src.embeddings.sentence_transformer | load_model:63 | Loading Sentence Transformers model: all-MiniLM-L6-v2
+2026-07-31 01:25:17 | INFO     | src.embeddings.sentence_transformer | load_model:71 | Successfully loaded Sentence Transformers model: all-MiniLM-L6-v2
+2026-07-31 01:25:17 | INFO     | src.embeddings.sentence_transformer | embed_documents:97 | Generating embeddings for 52 document(s)
+2026-07-31 01:25:21 | INFO     | src.embeddings.sentence_transformer | embed_documents:99 | Generated document embeddings with shape (52, 384)
+2026-07-31 01:25:21 | INFO     | src.pipelines.indexing_pipeline | run:201 | Embeddings generated: 52
+2026-07-31 01:25:21 | INFO     | src.pipelines.indexing_pipeline | run:214 | Storing 52 chunks in vector database...
+2026-07-31 01:25:21 | INFO     | src.vectorstores.chroma_store | add_documents:209 | Adding 52 document(s) to collection: research_documents
+2026-07-31 01:25:21 | INFO     | src.vectorstores.chroma_store | add_documents:226 | Number of vectors inserted into ChromaDB: 52
+2026-07-31 01:25:21 | INFO     | src.vectorstores.chroma_store | add_documents:227 | Collection size after insertion: 156
+2026-07-31 01:25:21 | INFO     | src.pipelines.indexing_pipeline | run:222 | Indexing pipeline completed successfully in 16.58 seconds. Indexed 15 documents (52 chunks).
+2026-07-31 01:25:21 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /index - Status: 200 - Latency: 16.5887s
+2026-07-31 01:25:47 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 01:25:47 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0026s
+2026-07-31 01:25:49 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 01:25:49 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.0075s
+2026-07-31 01:25:51 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 01:25:51 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0040s
+2026-07-31 01:25:53 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /query
+2026-07-31 01:25:53 | INFO     | src.llms.llm_factory | _create_client:121 | Creating LLM client instance for provider: groq
+2026-07-31 01:25:53 | INFO     | src.llms.groq_client | initialize:75 | Initializing Groq client (model=llama-3.3-70b-versatile)
+2026-07-31 01:25:54 | INFO     | src.llms.llm_factory | __init__:66 | LLMFactory initialized with provider: groq
+2026-07-31 01:25:54 | INFO     | src.retrieval.reranker | __init__:103 | Reranker initialized (model=cross-encoder/ms-marco-MiniLM-L-6-v2, default_top_k=3)
+2026-07-31 01:25:54 | INFO     | src.pipelines.rag_pipeline | __init__:177 | RAGPipeline initialized (retrieval_top_k=5, reranker=enabled)
+2026-07-31 01:25:54 | INFO     | src.api.routes | query_system:126 | API received query: 'What is Transformer Architecture?'
+2026-07-31 01:25:54 | INFO     | src.pipelines.rag_pipeline | answer:217 | RAG pipeline started for query: 'What is Transformer Architecture?'
+2026-07-31 01:25:54 | INFO     | src.retrieval.retriever | _search:257 | Retrieving for query (top_k=5, threshold=0.000, filters=None): 'What is Transformer Architecture?'
+2026-07-31 01:25:54 | INFO     | src.embeddings.embedding_manager | embed_query:168 | Delegating embed_query request to provider: sentence-transformers
+2026-07-31 01:25:54 | INFO     | src.embeddings.sentence_transformer | embed_query:121 | Generating embedding for query
+2026-07-31 01:25:54 | INFO     | src.embeddings.sentence_transformer | embed_query:123 | Generated query embedding with shape (384,)
+2026-07-31 01:25:54 | INFO     | src.vectorstores.chroma_store | similarity_search:329 | Running similarity search on collection: research_documents (top_k=5)
+2026-07-31 01:25:54 | INFO     | src.vectorstores.chroma_store | similarity_search:346 | Similarity search returned 5 result(s)
+2026-07-31 01:25:54 | INFO     | src.retrieval.retriever | _search:285 | Retrieved 5 chunk(s) in 0.035s (before threshold: 5)
+2026-07-31 01:25:54 | INFO     | src.pipelines.rag_pipeline | retrieve_context:309 | Retrieval returned 5 chunk(s) in 0.035s
+2026-07-31 01:25:54 | INFO     | src.retrieval.reranker | rerank:147 | Reranking 5 chunk(s) for query (top_k=3): 'What is Transformer Architecture?'
+2026-07-31 01:25:54 | INFO     | src.retrieval.reranker | _load_model:205 | Loading cross-encoder model: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-31 01:26:05 | INFO     | src.retrieval.reranker | _load_model:215 | Successfully loaded cross-encoder model: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-31 01:26:06 | INFO     | src.retrieval.reranker | rerank:180 | Reranked 5 chunk(s) to 3 in 0.467s
+2026-07-31 01:26:06 | INFO     | src.pipelines.rag_pipeline | retrieve_context:338 | Reranking refined 5 chunk(s) to 3 in 11.873s
+2026-07-31 01:26:06 | INFO     | src.pipelines.rag_pipeline | build_context:384 | Built context from 3 chunk(s) (3080 characters)
+2026-07-31 01:26:06 | INFO     | src.llms.groq_client | generate:124 | Sending generation request to Groq (model=llama-3.3-70b-versatile, temp=0.20)
+2026-07-31 01:26:07 | INFO     | src.llms.groq_client | generate:148 | Groq generation completed in 1.573s (finish_reason=stop)
+2026-07-31 01:26:07 | INFO     | src.pipelines.rag_pipeline | answer:241 | LLM generation completed in 1.573s
+2026-07-31 01:26:07 | INFO     | src.pipelines.rag_pipeline | answer:255 | RAG pipeline completed: total=13.484s retrieval=11.909s generation=1.573s confidence=5.044 docs=3
+2026-07-31 01:26:07 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /query - Status: 200 - Latency: 13.9700s
+2026-07-31 01:32:06 | INFO     | src.loaders.pdf_loader | load:102 | Starting PDF load for source: data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:32:06 | INFO     | src.loaders.pdf_loader | _load_single_pdf:171 | PDF loaded: data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:32:06 | INFO     | src.loaders.pdf_loader | _load_single_pdf:172 | Number of pages: 15
+2026-07-31 01:32:06 | INFO     | src.loaders.pdf_loader | load:112 | Completed PDF load for source: data\uploads\Attention_is_All_You_Need.pdf (15 pages)
+2026-07-31 01:33:20 | INFO     | src.api.app | lifespan:40 | ResearchRAG API shutting down. Cleaning up resources...
+2026-07-31 01:33:45 | INFO     | src.api.app | _register_routers:175 | Routers configured successfully.
+2026-07-31 01:33:45 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-31 01:35:02 | INFO     | src.loaders.pdf_loader | load:107 | Starting PDF load for source: data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:35:09 | INFO     | src.api.app | lifespan:40 | ResearchRAG API shutting down. Cleaning up resources...
+2026-07-31 01:35:38 | INFO     | src.api.app | _register_routers:175 | Routers configured successfully.
+2026-07-31 01:35:38 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-31 01:35:38 | INFO     | src.api.app | lifespan:40 | ResearchRAG API shutting down. Cleaning up resources...
+2026-07-31 01:35:53 | INFO     | src.loaders.pdf_loader | load:107 | Starting PDF load for source: data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:36:08 | INFO     | src.api.app | _register_routers:175 | Routers configured successfully.
+2026-07-31 01:36:08 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-31 01:36:08 | INFO     | src.api.app | lifespan:40 | ResearchRAG API shutting down. Cleaning up resources...
+2026-07-31 01:36:36 | INFO     | src.api.app | _register_routers:175 | Routers configured successfully.
+2026-07-31 01:36:36 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-31 01:36:36 | INFO     | src.api.app | lifespan:40 | ResearchRAG API shutting down. Cleaning up resources...
+2026-07-31 01:36:52 | INFO     | src.loaders.pdf_loader | load:107 | Starting PDF load for source: data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=4111b2febb0a8541f83d6572b3cfaef34b9dfc6f3c64d6411acfae7748a6d862 source=data\uploads\Attention_is_All_You_Need.pdf page=0
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=f77c99fe9b2e9c41bfb48d55fc76af4bc9c29d0007739239a45c32c6c0221297 source=data\uploads\Attention_is_All_You_Need.pdf page=1
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=3113451b98a90f22d465e3a14f5a6ce5bd15e1c8dc3429e468803111e236a9c9 source=data\uploads\Attention_is_All_You_Need.pdf page=2
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=a59082096d0d1aec9c72b955b996ce336209b4e6519a7f84295c8badf1f4a2d4 source=data\uploads\Attention_is_All_You_Need.pdf page=3
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=1b381a68d4cec6cdb2029486d12a1bf3e1c1556f19e8b7a4ad8a1a090f647e00 source=data\uploads\Attention_is_All_You_Need.pdf page=4
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=d3aa6451124ccababcea0e6449f5e0bf888bf9ad8bb962fbe58c64b411889afb source=data\uploads\Attention_is_All_You_Need.pdf page=5
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=22a7f16336b06329ad4856200f4ee0ca81a88cb70c3393ed198460f257dbdbbc source=data\uploads\Attention_is_All_You_Need.pdf page=6
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=da6f1b84219b4a9302cbcdd780cdc06d5e4290b8aa9417154d24c381e5250e66 source=data\uploads\Attention_is_All_You_Need.pdf page=7
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=22c14c7a25e8682a3ee6dc149258186d238f382d7b6f8efbf30fd6145eae14e5 source=data\uploads\Attention_is_All_You_Need.pdf page=8
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=dc9da2aa493a3996b7d1a44dc056fe61911066a5292ea0ad45bf9c61c9788113 source=data\uploads\Attention_is_All_You_Need.pdf page=9
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=d6c1ebb4bbbd061e7c5373b848c7f0394102338f7a1e83ff7baf64a7723edc21 source=data\uploads\Attention_is_All_You_Need.pdf page=10
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=31ad01573ca1aed016df80c09cf5c16174a297566fbf480e676009a82cb3d5ff source=data\uploads\Attention_is_All_You_Need.pdf page=11
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=8b1d83fcf8faa630486d674aaa2e34131a68c8cc474a6f167d4b4333b634bb55 source=data\uploads\Attention_is_All_You_Need.pdf page=12
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=74150bc6b071f585efec686ed5a076bb86990b14492a69f5611eea574b528239 source=data\uploads\Attention_is_All_You_Need.pdf page=13
+2026-07-31 01:36:53 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=8f081c69c6c4fc1bf2296525a3d857967e18e9720b3792cf9f98fdf91f1163b3 source=data\uploads\Attention_is_All_You_Need.pdf page=14
+2026-07-31 01:36:53 | INFO     | src.loaders.pdf_loader | _load_single_pdf:178 | PDF loaded: data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:36:53 | INFO     | src.loaders.pdf_loader | _load_single_pdf:179 | Number of pages: 15
+2026-07-31 01:36:53 | INFO     | src.loaders.pdf_loader | load:117 | Completed PDF load for source: data\uploads\Attention_is_All_You_Need.pdf (15 pages)
+2026-07-31 01:36:53 | INFO     | src.preprocessing.splitter | split_documents:149 | Splitting 15 document(s) into chunks
+2026-07-31 01:36:53 | INFO     | src.preprocessing.splitter | split_documents:159 | Produced 52 chunk(s) from 15 document(s) in 0.003s (average chunk size: 871.5 characters)
+2026-07-31 01:36:53 | INFO     | src.embeddings.embedding_manager | _create_provider:119 | Creating embedding provider instance: sentence-transformers
+2026-07-31 01:36:53 | INFO     | src.embeddings.embedding_manager | __init__:64 | EmbeddingManager initialized with provider: sentence-transformers
+2026-07-31 01:36:53 | INFO     | src.vectorstores.chroma_store | initialize:104 | Initializing ChromaDB client at persist directory: data\vectorstore
+2026-07-31 01:36:53 | INFO     | src.vectorstores.chroma_store | initialize:112 | ChromaDB client initialized successfully
+2026-07-31 01:36:53 | INFO     | src.vectorstores.chroma_store | create_collection:132 | Creating ChromaDB collection: research_documents
+2026-07-31 01:36:53 | INFO     | src.vectorstores.chroma_store | create_collection:144 | Collection ready: research_documents
+2026-07-31 01:36:53 | INFO     | src.vectorstores.chroma_store | reset_collection:419 | Resetting collection: research_documents
+2026-07-31 01:36:53 | INFO     | src.vectorstores.chroma_store | create_collection:132 | Creating ChromaDB collection: research_documents
+2026-07-31 01:36:53 | INFO     | src.vectorstores.chroma_store | create_collection:144 | Collection ready: research_documents
+2026-07-31 01:36:53 | INFO     | src.vectorstores.chroma_store | reset_collection:428 | Collection reset successfully: research_documents
+2026-07-31 01:36:53 | INFO     | src.vectorstores.index_manager | index_documents:98 | Indexing started for 1 document(s)
+2026-07-31 01:37:00 | INFO     | src.api.app | _register_routers:175 | Routers configured successfully.
+2026-07-31 01:37:00 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-31 01:37:46 | INFO     | src.loaders.pdf_loader | load:107 | Starting PDF load for source: data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=4111b2febb0a8541f83d6572b3cfaef34b9dfc6f3c64d6411acfae7748a6d862 source=data\uploads\Attention_is_All_You_Need.pdf page=0
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=f77c99fe9b2e9c41bfb48d55fc76af4bc9c29d0007739239a45c32c6c0221297 source=data\uploads\Attention_is_All_You_Need.pdf page=1
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=3113451b98a90f22d465e3a14f5a6ce5bd15e1c8dc3429e468803111e236a9c9 source=data\uploads\Attention_is_All_You_Need.pdf page=2
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=a59082096d0d1aec9c72b955b996ce336209b4e6519a7f84295c8badf1f4a2d4 source=data\uploads\Attention_is_All_You_Need.pdf page=3
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=1b381a68d4cec6cdb2029486d12a1bf3e1c1556f19e8b7a4ad8a1a090f647e00 source=data\uploads\Attention_is_All_You_Need.pdf page=4
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=d3aa6451124ccababcea0e6449f5e0bf888bf9ad8bb962fbe58c64b411889afb source=data\uploads\Attention_is_All_You_Need.pdf page=5
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=22a7f16336b06329ad4856200f4ee0ca81a88cb70c3393ed198460f257dbdbbc source=data\uploads\Attention_is_All_You_Need.pdf page=6
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=da6f1b84219b4a9302cbcdd780cdc06d5e4290b8aa9417154d24c381e5250e66 source=data\uploads\Attention_is_All_You_Need.pdf page=7
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=22c14c7a25e8682a3ee6dc149258186d238f382d7b6f8efbf30fd6145eae14e5 source=data\uploads\Attention_is_All_You_Need.pdf page=8
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=dc9da2aa493a3996b7d1a44dc056fe61911066a5292ea0ad45bf9c61c9788113 source=data\uploads\Attention_is_All_You_Need.pdf page=9
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=d6c1ebb4bbbd061e7c5373b848c7f0394102338f7a1e83ff7baf64a7723edc21 source=data\uploads\Attention_is_All_You_Need.pdf page=10
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=31ad01573ca1aed016df80c09cf5c16174a297566fbf480e676009a82cb3d5ff source=data\uploads\Attention_is_All_You_Need.pdf page=11
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=8b1d83fcf8faa630486d674aaa2e34131a68c8cc474a6f167d4b4333b634bb55 source=data\uploads\Attention_is_All_You_Need.pdf page=12
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=74150bc6b071f585efec686ed5a076bb86990b14492a69f5611eea574b528239 source=data\uploads\Attention_is_All_You_Need.pdf page=13
+2026-07-31 01:37:46 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=8f081c69c6c4fc1bf2296525a3d857967e18e9720b3792cf9f98fdf91f1163b3 source=data\uploads\Attention_is_All_You_Need.pdf page=14
+2026-07-31 01:37:46 | INFO     | src.loaders.pdf_loader | _load_single_pdf:178 | PDF loaded: data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:37:46 | INFO     | src.loaders.pdf_loader | _load_single_pdf:179 | Number of pages: 15
+2026-07-31 01:37:46 | INFO     | src.loaders.pdf_loader | load:117 | Completed PDF load for source: data\uploads\Attention_is_All_You_Need.pdf (15 pages)
+2026-07-31 01:37:46 | INFO     | src.vectorstores.chroma_store | initialize:104 | Initializing ChromaDB client at persist directory: data\vectorstore
+2026-07-31 01:37:47 | INFO     | src.vectorstores.chroma_store | initialize:112 | ChromaDB client initialized successfully
+2026-07-31 01:37:47 | INFO     | src.vectorstores.chroma_store | create_collection:132 | Creating ChromaDB collection: research_documents
+2026-07-31 01:37:47 | INFO     | src.vectorstores.chroma_store | create_collection:144 | Collection ready: research_documents
+2026-07-31 01:37:47 | INFO     | src.vectorstores.chroma_store | reset_collection:419 | Resetting collection: research_documents
+2026-07-31 01:37:47 | INFO     | src.vectorstores.chroma_store | create_collection:132 | Creating ChromaDB collection: research_documents
+2026-07-31 01:37:47 | INFO     | src.vectorstores.chroma_store | create_collection:144 | Collection ready: research_documents
+2026-07-31 01:37:47 | INFO     | src.vectorstores.chroma_store | reset_collection:428 | Collection reset successfully: research_documents
+2026-07-31 01:37:47 | INFO     | src.embeddings.embedding_manager | _create_provider:119 | Creating embedding provider instance: sentence-transformers
+2026-07-31 01:37:47 | INFO     | src.embeddings.embedding_manager | __init__:64 | EmbeddingManager initialized with provider: sentence-transformers
+2026-07-31 01:37:47 | INFO     | src.vectorstores.index_manager | index_documents:98 | Indexing started for 15 document(s)
+2026-07-31 01:37:47 | INFO     | src.embeddings.embedding_manager | embed_documents:144 | Delegating embed_documents request for 15 text(s) to provider: sentence-transformers
+2026-07-31 01:37:47 | INFO     | src.embeddings.sentence_transformer | load_model:63 | Loading Sentence Transformers model: all-MiniLM-L6-v2
+2026-07-31 01:37:56 | INFO     | src.embeddings.sentence_transformer | load_model:71 | Successfully loaded Sentence Transformers model: all-MiniLM-L6-v2
+2026-07-31 01:37:56 | INFO     | src.embeddings.sentence_transformer | embed_documents:97 | Generating embeddings for 15 document(s)
+2026-07-31 01:37:58 | INFO     | src.embeddings.sentence_transformer | embed_documents:99 | Generated document embeddings with shape (15, 384)
+2026-07-31 01:37:58 | INFO     | src.vectorstores.index_manager | _embed_and_store:259 | Embedding generation completed for 15 document(s)
+2026-07-31 01:37:58 | INFO     | src.vectorstores.chroma_store | add_documents:223 | Adding 15 document(s) to collection: research_documents
+2026-07-31 01:37:58 | INFO     | src.vectorstores.chroma_store | add_documents:240 | Number of vectors inserted into ChromaDB: 15
+2026-07-31 01:37:58 | INFO     | src.vectorstores.chroma_store | add_documents:241 | Collection size after insertion: 15
+2026-07-31 01:37:58 | INFO     | src.vectorstores.index_manager | index_documents:119 | Indexing completed: received=15 indexed=15 skipped=0 duration=11.199s
+2026-07-31 01:37:58 | INFO     | src.vectorstores.index_manager | index_documents:98 | Indexing started for 15 document(s)
+2026-07-31 01:37:58 | INFO     | src.embeddings.embedding_manager | embed_documents:144 | Delegating embed_documents request for 15 text(s) to provider: sentence-transformers
+2026-07-31 01:37:58 | INFO     | src.embeddings.sentence_transformer | embed_documents:97 | Generating embeddings for 15 document(s)
+2026-07-31 01:37:59 | INFO     | src.embeddings.sentence_transformer | embed_documents:99 | Generated document embeddings with shape (15, 384)
+2026-07-31 01:37:59 | INFO     | src.vectorstores.index_manager | _embed_and_store:259 | Embedding generation completed for 15 document(s)
+2026-07-31 01:37:59 | INFO     | src.vectorstores.chroma_store | add_documents:217 | Skipping insertion because all 15 document(s) already exist in collection: research_documents
+2026-07-31 01:37:59 | INFO     | src.vectorstores.index_manager | index_documents:119 | Indexing completed: received=15 indexed=15 skipped=0 duration=1.546s
+2026-07-31 01:38:44 | INFO     | src.api.app | lifespan:40 | ResearchRAG API shutting down. Cleaning up resources...
+2026-07-31 01:39:11 | INFO     | src.api.app | _register_routers:175 | Routers configured successfully.
+2026-07-31 01:39:11 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-31 01:39:11 | INFO     | src.api.app | lifespan:40 | ResearchRAG API shutting down. Cleaning up resources...
+2026-07-31 01:39:14 | INFO     | src.loaders.pdf_loader | load:107 | Starting PDF load for source: data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=4111b2febb0a8541f83d6572b3cfaef34b9dfc6f3c64d6411acfae7748a6d862 source=data\uploads\Attention_is_All_You_Need.pdf page=0
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=f77c99fe9b2e9c41bfb48d55fc76af4bc9c29d0007739239a45c32c6c0221297 source=data\uploads\Attention_is_All_You_Need.pdf page=1
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=3113451b98a90f22d465e3a14f5a6ce5bd15e1c8dc3429e468803111e236a9c9 source=data\uploads\Attention_is_All_You_Need.pdf page=2
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=a59082096d0d1aec9c72b955b996ce336209b4e6519a7f84295c8badf1f4a2d4 source=data\uploads\Attention_is_All_You_Need.pdf page=3
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=1b381a68d4cec6cdb2029486d12a1bf3e1c1556f19e8b7a4ad8a1a090f647e00 source=data\uploads\Attention_is_All_You_Need.pdf page=4
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=d3aa6451124ccababcea0e6449f5e0bf888bf9ad8bb962fbe58c64b411889afb source=data\uploads\Attention_is_All_You_Need.pdf page=5
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=22a7f16336b06329ad4856200f4ee0ca81a88cb70c3393ed198460f257dbdbbc source=data\uploads\Attention_is_All_You_Need.pdf page=6
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=da6f1b84219b4a9302cbcdd780cdc06d5e4290b8aa9417154d24c381e5250e66 source=data\uploads\Attention_is_All_You_Need.pdf page=7
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=22c14c7a25e8682a3ee6dc149258186d238f382d7b6f8efbf30fd6145eae14e5 source=data\uploads\Attention_is_All_You_Need.pdf page=8
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=dc9da2aa493a3996b7d1a44dc056fe61911066a5292ea0ad45bf9c61c9788113 source=data\uploads\Attention_is_All_You_Need.pdf page=9
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=d6c1ebb4bbbd061e7c5373b848c7f0394102338f7a1e83ff7baf64a7723edc21 source=data\uploads\Attention_is_All_You_Need.pdf page=10
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=31ad01573ca1aed016df80c09cf5c16174a297566fbf480e676009a82cb3d5ff source=data\uploads\Attention_is_All_You_Need.pdf page=11
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=8b1d83fcf8faa630486d674aaa2e34131a68c8cc474a6f167d4b4333b634bb55 source=data\uploads\Attention_is_All_You_Need.pdf page=12
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=74150bc6b071f585efec686ed5a076bb86990b14492a69f5611eea574b528239 source=data\uploads\Attention_is_All_You_Need.pdf page=13
+2026-07-31 01:39:14 | INFO     | src.preprocessing.metadata | enrich_metadata:188 | Enriched metadata for document_id=8f081c69c6c4fc1bf2296525a3d857967e18e9720b3792cf9f98fdf91f1163b3 source=data\uploads\Attention_is_All_You_Need.pdf page=14
+2026-07-31 01:39:14 | INFO     | src.loaders.pdf_loader | _load_single_pdf:178 | PDF loaded: data\uploads\Attention_is_All_You_Need.pdf
+2026-07-31 01:39:14 | INFO     | src.loaders.pdf_loader | _load_single_pdf:179 | Number of pages: 15
+2026-07-31 01:39:14 | INFO     | src.loaders.pdf_loader | load:117 | Completed PDF load for source: data\uploads\Attention_is_All_You_Need.pdf (15 pages)
+2026-07-31 01:39:14 | INFO     | src.vectorstores.chroma_store | initialize:104 | Initializing ChromaDB client at persist directory: data\vectorstore
+2026-07-31 01:39:14 | INFO     | src.vectorstores.chroma_store | initialize:112 | ChromaDB client initialized successfully
+2026-07-31 01:39:15 | INFO     | src.vectorstores.chroma_store | create_collection:132 | Creating ChromaDB collection: research_documents
+2026-07-31 01:39:15 | INFO     | src.vectorstores.chroma_store | create_collection:144 | Collection ready: research_documents
+2026-07-31 01:39:15 | INFO     | src.vectorstores.chroma_store | reset_collection:419 | Resetting collection: research_documents
+2026-07-31 01:39:15 | INFO     | src.vectorstores.chroma_store | create_collection:132 | Creating ChromaDB collection: research_documents
+2026-07-31 01:39:15 | INFO     | src.vectorstores.chroma_store | create_collection:144 | Collection ready: research_documents
+2026-07-31 01:39:15 | INFO     | src.vectorstores.chroma_store | reset_collection:428 | Collection reset successfully: research_documents
+2026-07-31 01:39:15 | INFO     | src.embeddings.embedding_manager | _create_provider:119 | Creating embedding provider instance: sentence-transformers
+2026-07-31 01:39:15 | INFO     | src.embeddings.embedding_manager | __init__:64 | EmbeddingManager initialized with provider: sentence-transformers
+2026-07-31 01:39:15 | INFO     | src.vectorstores.index_manager | index_documents:98 | Indexing started for 15 document(s)
+2026-07-31 01:39:15 | INFO     | src.embeddings.embedding_manager | embed_documents:144 | Delegating embed_documents request for 15 text(s) to provider: sentence-transformers
+2026-07-31 01:39:15 | INFO     | src.embeddings.sentence_transformer | load_model:63 | Loading Sentence Transformers model: all-MiniLM-L6-v2
+2026-07-31 01:39:24 | INFO     | src.embeddings.sentence_transformer | load_model:71 | Successfully loaded Sentence Transformers model: all-MiniLM-L6-v2
+2026-07-31 01:39:24 | INFO     | src.embeddings.sentence_transformer | embed_documents:97 | Generating embeddings for 15 document(s)
+2026-07-31 01:39:26 | INFO     | src.embeddings.sentence_transformer | embed_documents:99 | Generated document embeddings with shape (15, 384)
+2026-07-31 01:39:26 | INFO     | src.vectorstores.index_manager | _embed_and_store:261 | Embedding generation completed for 15 document(s)
+2026-07-31 01:39:26 | INFO     | src.vectorstores.chroma_store | add_documents:223 | Adding 15 document(s) to collection: research_documents
+2026-07-31 01:39:26 | INFO     | src.vectorstores.chroma_store | add_documents:240 | Number of vectors inserted into ChromaDB: 15
+2026-07-31 01:39:26 | INFO     | src.vectorstores.chroma_store | add_documents:241 | Collection size after insertion: 15
+2026-07-31 01:39:26 | INFO     | src.vectorstores.index_manager | index_documents:121 | Indexing completed: received=15 indexed=15 skipped=0 duration=11.597s
+2026-07-31 01:39:26 | INFO     | src.vectorstores.index_manager | index_documents:98 | Indexing started for 15 document(s)
+2026-07-31 01:39:26 | INFO     | src.embeddings.embedding_manager | embed_documents:144 | Delegating embed_documents request for 15 text(s) to provider: sentence-transformers
+2026-07-31 01:39:26 | INFO     | src.embeddings.sentence_transformer | embed_documents:97 | Generating embeddings for 15 document(s)
+2026-07-31 01:39:28 | INFO     | src.embeddings.sentence_transformer | embed_documents:99 | Generated document embeddings with shape (15, 384)
+2026-07-31 01:39:28 | INFO     | src.vectorstores.index_manager | _embed_and_store:261 | Embedding generation completed for 15 document(s)
+2026-07-31 01:39:28 | INFO     | src.vectorstores.chroma_store | add_documents:217 | Skipping insertion because all 15 document(s) already exist in collection: research_documents
+2026-07-31 01:39:28 | INFO     | src.vectorstores.index_manager | index_documents:121 | Indexing completed: received=15 indexed=0 skipped=15 duration=1.930s
+2026-07-31 01:39:36 | INFO     | src.api.app | _register_routers:175 | Routers configured successfully.
+2026-07-31 01:39:36 | INFO     | src.api.app | lifespan:35 | ResearchRAG API starting up. Initializing resources...
+2026-07-31 01:42:18 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 01:42:18 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0045s
+2026-07-31 01:42:20 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 01:42:20 | INFO     | src.vectorstores.chroma_store | initialize:104 | Initializing ChromaDB client at persist directory: data\vectorstore
+2026-07-31 01:42:20 | INFO     | src.vectorstores.chroma_store | initialize:112 | ChromaDB client initialized successfully
+2026-07-31 01:42:20 | INFO     | src.vectorstores.chroma_store | create_collection:132 | Creating ChromaDB collection: research_documents
+2026-07-31 01:42:20 | INFO     | src.vectorstores.chroma_store | create_collection:144 | Collection ready: research_documents
+2026-07-31 01:42:20 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.2459s
+2026-07-31 01:42:22 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 01:42:22 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0055s
+2026-07-31 01:42:56 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 01:42:56 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0029s
+2026-07-31 01:42:58 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 01:42:58 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.0030s
+2026-07-31 01:43:00 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 01:43:00 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0039s
+2026-07-31 01:43:02 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /query
+2026-07-31 01:43:02 | INFO     | src.embeddings.embedding_manager | _create_provider:119 | Creating embedding provider instance: sentence-transformers
+2026-07-31 01:43:02 | INFO     | src.embeddings.embedding_manager | __init__:64 | EmbeddingManager initialized with provider: sentence-transformers
+2026-07-31 01:43:02 | INFO     | src.llms.llm_factory | _create_client:121 | Creating LLM client instance for provider: groq
+2026-07-31 01:43:02 | INFO     | src.llms.groq_client | initialize:75 | Initializing Groq client (model=llama-3.3-70b-versatile)
+2026-07-31 01:43:03 | INFO     | src.llms.llm_factory | __init__:66 | LLMFactory initialized with provider: groq
+2026-07-31 01:43:03 | INFO     | src.retrieval.reranker | __init__:103 | Reranker initialized (model=cross-encoder/ms-marco-MiniLM-L-6-v2, default_top_k=3)
+2026-07-31 01:43:03 | INFO     | src.pipelines.rag_pipeline | __init__:177 | RAGPipeline initialized (retrieval_top_k=5, reranker=enabled)
+2026-07-31 01:43:03 | INFO     | src.api.routes | query_system:126 | API received query: 'what is transformer architecture'
+2026-07-31 01:43:03 | INFO     | src.pipelines.rag_pipeline | answer:217 | RAG pipeline started for query: 'what is transformer architecture'
+2026-07-31 01:43:03 | INFO     | src.retrieval.retriever | _search:257 | Retrieving for query (top_k=5, threshold=0.000, filters=None): 'what is transformer architecture'
+2026-07-31 01:43:03 | INFO     | src.embeddings.embedding_manager | embed_query:168 | Delegating embed_query request to provider: sentence-transformers
+2026-07-31 01:43:03 | INFO     | src.embeddings.sentence_transformer | load_model:63 | Loading Sentence Transformers model: all-MiniLM-L6-v2
+2026-07-31 01:43:12 | INFO     | src.embeddings.sentence_transformer | load_model:71 | Successfully loaded Sentence Transformers model: all-MiniLM-L6-v2
+2026-07-31 01:43:12 | INFO     | src.embeddings.sentence_transformer | embed_query:121 | Generating embedding for query
+2026-07-31 01:43:12 | INFO     | src.embeddings.sentence_transformer | embed_query:123 | Generated query embedding with shape (384,)
+2026-07-31 01:43:12 | INFO     | src.vectorstores.chroma_store | similarity_search:343 | Running similarity search on collection: research_documents (top_k=5)
+2026-07-31 01:43:12 | INFO     | src.vectorstores.chroma_store | similarity_search:360 | Similarity search returned 5 result(s)
+2026-07-31 01:43:12 | INFO     | src.retrieval.retriever | _search:285 | Retrieved 5 chunk(s) in 9.171s (before threshold: 5)
+2026-07-31 01:43:12 | INFO     | src.pipelines.rag_pipeline | retrieve_context:309 | Retrieval returned 5 chunk(s) in 9.172s
+2026-07-31 01:43:12 | INFO     | src.retrieval.reranker | rerank:147 | Reranking 5 chunk(s) for query (top_k=3): 'what is transformer architecture'
+2026-07-31 01:43:12 | INFO     | src.retrieval.reranker | _load_model:205 | Loading cross-encoder model: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-31 01:43:23 | INFO     | src.retrieval.reranker | _load_model:215 | Successfully loaded cross-encoder model: cross-encoder/ms-marco-MiniLM-L-6-v2
+2026-07-31 01:43:24 | INFO     | src.retrieval.reranker | rerank:180 | Reranked 5 chunk(s) to 3 in 1.060s
+2026-07-31 01:43:24 | INFO     | src.pipelines.rag_pipeline | retrieve_context:338 | Reranking refined 5 chunk(s) to 3 in 12.129s
+2026-07-31 01:43:24 | INFO     | src.pipelines.rag_pipeline | build_context:384 | Built context from 3 chunk(s) (8082 characters)
+2026-07-31 01:43:24 | INFO     | src.llms.groq_client | generate:124 | Sending generation request to Groq (model=llama-3.3-70b-versatile, temp=0.20)
+2026-07-31 01:43:26 | INFO     | src.llms.groq_client | generate:148 | Groq generation completed in 1.845s (finish_reason=stop)
+2026-07-31 01:43:26 | INFO     | src.pipelines.rag_pipeline | answer:241 | LLM generation completed in 1.846s
+2026-07-31 01:43:26 | INFO     | src.pipelines.rag_pipeline | answer:255 | RAG pipeline completed: total=23.147s retrieval=21.302s generation=1.846s confidence=1.880 docs=3
+2026-07-31 01:43:26 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /query - Status: 200 - Latency: 23.6694s
+2026-07-31 01:44:09 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /health
+2026-07-31 01:44:09 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /health - Status: 200 - Latency: 0.0047s
+2026-07-31 01:44:11 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /statistics
+2026-07-31 01:44:11 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /statistics - Status: 200 - Latency: 0.0051s
+2026-07-31 01:44:13 | INFO     | src.api.app | request_logging_middleware:89 | Received request: GET /configuration
+2026-07-31 01:44:13 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: GET /configuration - Status: 200 - Latency: 0.0039s
+2026-07-31 01:44:15 | INFO     | src.api.app | request_logging_middleware:89 | Received request: POST /query
+2026-07-31 01:44:15 | INFO     | src.pipelines.rag_pipeline | __init__:177 | RAGPipeline initialized (retrieval_top_k=5, reranker=enabled)
+2026-07-31 01:44:15 | INFO     | src.api.routes | query_system:126 | API received query: 'who wrote attention is all you need?'
+2026-07-31 01:44:15 | INFO     | src.pipelines.rag_pipeline | answer:217 | RAG pipeline started for query: 'who wrote attention is all you need?'
+2026-07-31 01:44:15 | INFO     | src.retrieval.retriever | _search:257 | Retrieving for query (top_k=5, threshold=0.000, filters=None): 'who wrote attention is all you need?'
+2026-07-31 01:44:15 | INFO     | src.embeddings.embedding_manager | embed_query:168 | Delegating embed_query request to provider: sentence-transformers
+2026-07-31 01:44:15 | INFO     | src.embeddings.sentence_transformer | embed_query:121 | Generating embedding for query
+2026-07-31 01:44:15 | INFO     | src.embeddings.sentence_transformer | embed_query:123 | Generated query embedding with shape (384,)
+2026-07-31 01:44:15 | INFO     | src.vectorstores.chroma_store | similarity_search:343 | Running similarity search on collection: research_documents (top_k=5)
+2026-07-31 01:44:15 | INFO     | src.vectorstores.chroma_store | similarity_search:360 | Similarity search returned 5 result(s)
+2026-07-31 01:44:15 | INFO     | src.retrieval.retriever | _search:285 | Retrieved 5 chunk(s) in 0.039s (before threshold: 5)
+2026-07-31 01:44:15 | INFO     | src.pipelines.rag_pipeline | retrieve_context:309 | Retrieval returned 5 chunk(s) in 0.040s
+2026-07-31 01:44:15 | INFO     | src.retrieval.reranker | rerank:147 | Reranking 5 chunk(s) for query (top_k=3): 'who wrote attention is all you need?'
+2026-07-31 01:44:16 | INFO     | src.retrieval.reranker | rerank:180 | Reranked 5 chunk(s) to 3 in 1.043s
+2026-07-31 01:44:16 | INFO     | src.pipelines.rag_pipeline | retrieve_context:338 | Reranking refined 5 chunk(s) to 3 in 1.044s
+2026-07-31 01:44:16 | INFO     | src.pipelines.rag_pipeline | build_context:384 | Built context from 3 chunk(s) (6686 characters)
+2026-07-31 01:44:16 | INFO     | src.llms.groq_client | generate:124 | Sending generation request to Groq (model=llama-3.3-70b-versatile, temp=0.20)
+2026-07-31 01:44:17 | INFO     | src.llms.groq_client | generate:148 | Groq generation completed in 0.448s (finish_reason=stop)
+2026-07-31 01:44:17 | INFO     | src.pipelines.rag_pipeline | answer:241 | LLM generation completed in 0.449s
+2026-07-31 01:44:17 | INFO     | src.pipelines.rag_pipeline | answer:255 | RAG pipeline completed: total=1.535s retrieval=1.085s generation=0.449s confidence=-8.932 docs=3
+2026-07-31 01:44:17 | INFO     | src.api.app | request_logging_middleware:111 | Completed request: POST /query - Status: 200 - Latency: 1.5534s
+2026-07-31 01:52:49 | INFO     | src.api.app | lifespan:40 | ResearchRAG API shutting down. Cleaning up resources...
